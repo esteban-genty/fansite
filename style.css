@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(42, 42, 42);
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(34, 34, 34, 0.75),rgba(20, 20, 20, 0.75)),url(img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-title{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(30, 30, 30, 0.75),rgba(27, 27, 27, 0.75)),url(img/img4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-title h1{
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 30px; 
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+}
+
+.nav-bar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-bar ul li a{ 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+}
+
+.nav-bar ul li :hover{
+    color: rgb(126, 151, 0);
+    transition: .4s;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.title-home h1 {
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 30px; 
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+}
+
+.title-home p{
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(186, 186, 186);
+    font-size: 19px; 
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+}
+
+
+.img-gif-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.img-gif-home #gif1,#gif2,#gif3,#gif4{
+    width: 800px;
+    border-radius: 20px;
+}
+
+.txt-home{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.txt-home h1{
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 30px; 
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+}
+
+.txt-home p{
+    color: rgb(186, 186, 186);
+    font-size: 19px; 
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+}
+
+.flex-img {
+    margin: 50px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  
+  .flex-img img {
+    margin-left: 20px;
+    width: 400px;
+    height: auto;
+    box-shadow: 0px 5px  5px rgb(33, 33, 33);
+    border: 2px solid rgb(33, 33, 33);
+    border-radius: 10px;
+  }
+
+
+.txt{
+    color: white;
+    font-size: 20px;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+  }
+
+label{
+    color: white;
+    width: 100%;
+    font-size: 17px;
+  }
+
+.form-contact {
+    /* Ajouter box-sizing */
+    box-sizing : border-box;
+    border-radius:5px;
+    padding:10px;
+    width: 100%;
+    font-family: 'roboto', sans-serif;
+    max-width: 440px;
+    margin:0 auto;
+  }
+
+  .form-contact select{
+    color: black;
+    box-sizing : border-box;
+    border-radius:5px;
+    padding:10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+.form-contact h1{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'roboto', sans-serif;
+  width: 100%;
+  font-size: 45px;
+}
+
+
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+
+
+input[type=submit] {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: rgb(126, 151, 0);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding:5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: #ffffff;
+  color: rgb(126, 151, 0);
+  border: solid 2px rgb(126, 151, 0);
+  transition: .7s;
+}
+
+.lien-utile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lien-utile a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+    margin-left: 50px;
+    margin: 50px;
+}
+
+.lien-utile :hover{
+    color: rgb(126, 151, 0);
+    transition: .5s;
+}
+
+
+
+/*Footer*/
+footer{
+    height: 70px;
+    background-color: rgb(22, 22, 22);
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
